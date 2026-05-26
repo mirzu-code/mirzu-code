@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="150" viewBox="0 0 800 150">
+  <defs>
+    <style>
+      /* Global styles for text */
+      text {
+        font-family: 'Consolas', 'Courier New', Courier, monospace;
+        font-size: 10px;
+        fill: #39FF14; /* Default glitch green */
+      }
+      
+      /* Base style for all contribution squares */
+      .contribution-grid rect {
+        width: 11px;
+        height: 11px;
+        rx: 1.5;
+        ry: 1.5;
+        opacity: 1;
+        transition: fill 0.1s ease-in-out;
+      }
+      
+      /* Defines the contribution level colors */
+      .level-0 { fill: #0d1117; } /* Empty/darkest */
+      .level-1 { fill: #102e1a; } /* Low */
+      .level-2 { fill: #1d5635; } /* Mid-low */
+      .level-3 { fill: #2d8f58; } /* Mid-high */
+      .level-4 { fill: #39d353; } /* High/brightest */
+      
+      /* --- HACKED ANIMATIONS --- */
+      
+      /* 1. Chaotic box pulse/flicker */
+      @keyframes pulse-flicker {
+        0%, 100% { opacity: 0.95; }
+        15%, 85% { opacity: 1; fill: inherit; }
+        25% { opacity: 0.4; fill: #ff004c !important; } /* Glitch to reddish */
+        30%, 70% { opacity: 0.1; } /* Nearly invisible */
+        35% { opacity: 0.9; fill: #00ffff !important; } /* Glitch to cyan */
+        60% { opacity: 0.8; fill: #ffd700 !important; } /* Glitch to gold */
+        95% { opacity: 1; fill: inherit; }
+      }
+      
+      /* Apply pulse-flicker to all boxes in sequence */
+      .contribution-grid rect:nth-child(5n+1) { animation: pulse-flicker 2.1s infinite alternate 0.1s; }
+      .contribution-grid rect:nth-child(5n+2) { animation: pulse-flicker 1.9s infinite alternate 0.4s; }
+      .contribution-grid rect:nth-child(5n+3) { animation: pulse-flicker 2.3s infinite alternate 0.7s; }
+      .contribution-grid rect:nth-child(5n+4) { animation: pulse-flicker 2.0s infinite alternate 1s; }
+      .contribution-grid rect:nth-child(5n) { animation: pulse-flicker 2.2s infinite alternate 1.3s; }
+      
+      /* 2. Global SVG-wide distortion/glitch (optional for more chaos) */
+      @keyframes svg-distortion {
+        0%, 100% { transform: scale(1) skew(0deg); opacity: 1; }
+        2% { transform: scale(1.005) skew(0.1deg); opacity: 0.95; }
+        10%, 90% { transform: scale(1) skew(0deg); opacity: 1; }
+        50% { transform: scale(1.002) skew(0.05deg); opacity: 0.99; }
+      }
+      
+      #main-grid { animation: svg-distortion 5s infinite linear; }
+      
+    </style>
+  </defs>
+  
+  <g id="main-grid" transform="translate(20, 20)">
+    <g class="contribution-grid">
+      <rect x="0" y="0" class="level-0" data-level="0"/>
+      <rect x="0" y="14" class="level-1" data-level="1"/>
+      <rect x="0" y="28" class="level-0" data-level="0"/>
+      <rect x="0" y="42" class="level-2" data-level="2"/>
+      <rect x="0" y="56" class="level-0" data-level="0"/>
+      <rect x="0" y="70" class="level-1" data-level="1"/>
+      <rect x="0" y="84" class="level-0" data-level="0"/>
+      
+      <rect x="14" y="0" class="level-1" data-level="1"/>
+      <rect x="14" y="14" class="level-0" data-level="0"/>
+      <rect x="14" y="28" class="level-3" data-level="3"/>
+      <rect x="14" y="42" class="level-0" data-level="0"/>
+      <rect x="14" y="56" class="level-1" data-level="1"/>
+      <rect x="14" y="70" class="level-2" data-level="2"/>
+      <rect x="14" y="84" class="level-0" data-level="0"/>
+      
+      </g>
+    
+    <text x="200" y="110" style="animation: pulse-flicker 2s infinite alternate;">CRITICAL_BREACH_DETECTED</text>
+    <text x="500" y="110" style="animation: pulse-flicker 2.5s infinite alternate 1s;">DATAFRAME://CORRUPTED</text>
+    <text x="10" y="130" style="animation: pulse-flicker 3s infinite alternate 2s;">MIRZU://HACKED</text>
+  </g>
+</svg>
