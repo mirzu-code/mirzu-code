@@ -32,12 +32,15 @@ I enjoy creating modern web experiences that combine clean design, practical fun
 * 🎮 **Fun Fact:** Active player and enthusiast of high-tier visual effects in **Mobile Legends**.
 
 ---
-## 📈 GitHub Activity
+
+## 📈 SYSTEM://ACTIVITY_LOG
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mirzu-code&theme=react-dark&bg_color=0d1117&hide_border=true" alt="Activity Graph" width="100%">
+  <img src="https://kazzkiq.github.io/svg-term/static/svg/terminal.svg" alt="Hacker Terminal" width="100%">
 </p>
 
 <p align="center">
-  <img src="https://ocean-contribution-snakes.vercel.app/api/snake?githubUsername=mirzu-code&theme=github-dark" alt="Snake Animation">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff66&height=120&section=footer&text=SYSTEM%20COMPROMISED&fontSize=20&fontColor=0d1117&animation=twinkling" width="100%">
 </p>
+
+---
