@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="YOUR_BANNER_IMAGE_URL_HERE" alt="Profile Banner" width="100%">
+  <img src="https://raw.githubusercontent.com/hzqfarhan/hzqfarhan/main/banner.png" alt="Profile Banner" width="100%">
 </p>
 
 <p align="center">
@@ -18,12 +18,17 @@
 
 ## 🌌 Overview
 
-I’m **[Your Name]**, a **[Your Role/Major]** student at **[Your Uni/Company]** with a strong interest in **[Skill 1]**, **[Skill 2]**, and **[Skill 3]**.
+I’m **Ammar Izzuddin**, a **Software Engineering** student (Matric ID: **AI250175**) at **Universiti Tun Hussein Onn Malaysia (UTHM)**. 
+
+### 🎓 Academic Journey
+* **Degree:** Bachelor of Computer Science (Software Engineering) with Honors
+* **Timeline:** Started my 7-semester (3.5 years) journey on **September 28, 2025**, with an expected graduation in **early 2029**.
+* **Current Focus:** Deep-diving into full-stack development, mastering database architecture (SQL & Supabase), and learning backend frameworks like ASP.NET Core.
 
 I enjoy creating modern web experiences that combine clean design, practical functionality, and meaningful user impact.
 
-* 🔭 **Currently Building:** [Project Name], an amazing new application.
-* 🎨 **Interests:** UI/UX Design, Product Development, and 3D Design.
-* 🎮 **Fun Fact:** Content creator for **Mobile Legends** for over 2 years.
+* 🔭 **Currently Building:** *Studio Noni Talam* (a commercial culinary workshop booking system) and a community-focused *Learning Management System (LMS)* for UTHM.
+* 🎨 **Interests:** Full-Stack Web Development, UI/UX Design, and Database Management.
+* 🎮 **Fun Fact:** Active player and enthusiast of high-tier visual effects in **Mobile Legends**.
 
 ---
