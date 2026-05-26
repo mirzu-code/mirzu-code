@@ -18,10 +18,10 @@
 
 ## 🌌 Overview
 
-I’m **Ammar Izzuddin**, a **Software Engineering** student (Matric ID: **AI250175**) at **Universiti Tun Hussein Onn Malaysia (UTHM)**. 
+I’m **Ammar Izzuddin**, a **Web Technology** student  at **Universiti Tun Hussein Onn Malaysia (UTHM)**. 
 
 ### 🎓 Academic Journey
-* **Degree:** Bachelor of Computer Science (Software Engineering) with Honors
+* **Degree:** Bachelor of Computer Science (Web Technology) with Honors
 * **Timeline:** Started my 7-semester (3.5 years) journey on **September 28, 2025**, with an expected graduation in **early 2029**.
 * **Current Focus:** Deep-diving into full-stack development, mastering database architecture (SQL & Supabase), and learning backend frameworks like ASP.NET Core.
 
