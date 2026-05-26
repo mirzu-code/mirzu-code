@@ -32,3 +32,12 @@ I enjoy creating modern web experiences that combine clean design, practical fun
 * 🎮 **Fun Fact:** Active player and enthusiast of high-tier visual effects in **Mobile Legends**.
 
 ---
+## 📈 GitHub Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mirzu-code&theme=react-dark&bg_color=0d1117&hide_border=true" alt="Activity Graph" width="100%">
+</p>
+
+<p align="center">
+  <img src="https://ocean-contribution-snakes.vercel.app/api/snake?githubUsername=mirzu-code&theme=github-dark" alt="Snake Animation">
+</p>
