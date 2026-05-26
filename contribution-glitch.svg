@@ -93,8 +93,4 @@
       <rect x="714" y="0" class="level-2"/><rect x="714" y="14" class="level-4"/><rect x="714" y="28" class="level-3"/><rect x="714" y="42" class="level-1"/><rect x="714" y="56" class="level-0"/><rect x="714" y="70" class="level-3"/><rect x="714" y="84" class="level-0"/>
     </g>
     
-    <text x="0" y="120" style="animation: kelip 1s infinite alternate;">MIRZU://SYSTEM_BREACHED</text>
-    <text x="250" y="120" style="animation: kelip 1.5s infinite alternate 0.5s;">DATAFRAME://CORRUPTED_GRID</text>
-    <text x="550" y="120" style="animation: kelip 2s infinite alternate 1s;">STATUS://Kene_Hack_Blink_Penuh</text>
-  </g>
-</svg>
+    </svg>
