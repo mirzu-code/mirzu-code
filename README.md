@@ -36,11 +36,7 @@ I enjoy creating modern web experiences that combine clean design, practical fun
 ## 📈 SYSTEM://ACTIVITY_LOG
 
 <p align="center">
-  <img src="https://kazzkiq.github.io/svg-term/static/svg/terminal.svg" alt="Hacker Terminal" width="100%">
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00ff66&height=120&section=footer&text=SYSTEM%20COMPROMISED&fontSize=20&fontColor=0d1117&animation=twinkling" width="100%">
+  <img src="https://raw.githubusercontent.com/mirzu-code/mirzu-code/main/contribution-glitch.svg" alt="Hacked Contribution Grid" width="100%">
 </p>
 
 ---
